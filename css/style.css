@@ -1667,7 +1667,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 }
 
-  @media (max-width: 480px) {
+  @media (max-width: 600px) {
     .coverThem{
       width: 100%;
       justify-content: space-between;
