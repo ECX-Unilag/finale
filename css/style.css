@@ -1678,3 +1678,12 @@ body.mobile-nav-active #mobile-nav-toggle {
       align-items: center;
     }
   }
+  #intro .about-btn.reg{
+    background: #f82249;
+    
+  }
+  #intro .about-btn.reg:hover{
+    background: transparent;
+    
+  }
+ 
