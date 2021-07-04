@@ -1666,3 +1666,15 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 10px;
   }
 }
+
+  @media (max-width: 480px) {
+    .coverThem{
+      width: 100%;
+      justify-content: space-between;
+    }
+    #intro .about-btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
