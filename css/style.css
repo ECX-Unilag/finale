@@ -1679,12 +1679,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   #subscribe button {
     margin-top: 10px;
   }
+  .coverThem{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
   @media (max-width: 600px) {
     .coverThem{
-      width: 100%;
+      width: 50%;
       justify-content: space-between;
+      margin: 0 auto;
     }
     #intro .about-btn{
       display: flex;
