@@ -186,7 +186,14 @@ h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  width: 130px;
+  margin-top: -50px;
+
+}
+@media (max-width:768px){
+  #header #logo img {
+    margin-top: -45px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1424,8 +1431,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
   margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  margin-top: -30px;
+}
+@media (max-width:768px){
+  #footer .footer-top .footer-info img {
+    
+  }
 }
 
 #footer .footer-top .footer-info p {
